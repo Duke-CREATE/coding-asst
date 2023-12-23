@@ -1,0 +1,13 @@
+.CodeEditor-text-areas-container {
+    display: flex;
+  }
+  
+.CodeEditor-text-area {
+    width: 50%; /* Set the width of each textarea to 50% of the container */
+    margin-right: 10px; /* Add some margin between the textareas */
+    height: 30vh;
+    background-color: black;
+    color: white;
+    
+  }
+  
