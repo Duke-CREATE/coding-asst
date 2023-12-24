@@ -32,7 +32,7 @@ def generate_response(question):
                         {"query": question, "session_id": session_id}
                         ).json()['response']
     
-    conn_string = "mongodb://localhost:27017/edu_pilot.chat_history"
+    conn_string = "mongodb://localhost:27017/[database_name].[collection_name]"
 
     message_history = MongoDBChatMessageHistory(
     connection_string=conn_string, session_id = session_id
