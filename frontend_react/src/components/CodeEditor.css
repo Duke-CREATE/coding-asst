@@ -3,11 +3,14 @@
   }
   
 .CodeEditor-text-area {
-    width: 50%; /* Set the width of each textarea to 50% of the container */
+    width: 100%; /* Set the width of each textarea to 50% of the container */
     margin-right: 10px; /* Add some margin between the textareas */
     height: 30vh;
-    background-color: black;
-    color: white;
+    background-color: #D0D0D0;
+    color: black;
+    border: 2px white;
+    border-radius: 20px;
+    padding: 20px;
     
   }
   
